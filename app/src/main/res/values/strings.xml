@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">Gum_Fitness_v3</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+
+    <string name="about">Версия программы Gum_Fitness_v3_008</string>
+    <string name="text_programm_comment"> tabbed activity внутри фрагмента "\n" + выбор даты рождения </string>
+    <string name="uprazhnenia">Упражнения</string>
+    <string name="profil">Профиль</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+    <string name="ok_text">Ok</string>
+    <string name="apply">Ok</string>
+    <string name="cancel">cancel</string>
+    <string name="dont_tuk">Не тыкай! пока не работает! :)</string>
+    <string name="girl">Женский</string>
+    <string name="Men">Мужской</string>
+
+
+    <string name="test">test</string>
+
+
+</resources>

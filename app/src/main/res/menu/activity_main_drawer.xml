@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/fragment_Uprazhnenia"
+            android:icon="@drawable/ic_fitness_center"
+            android:title="@string/uprazhnenia" />
+        <item
+            android:id="@+id/fragment_Profils"
+            android:icon="@drawable/ic__account_circle"
+            android:title="@string/profil" />
+
+        <menu>
+
+            <item
+                android:id="@+id/exit_Profil_Fragment"
+                android:icon="@drawable/ic_exit_to_profils"
+                android:title="Выход из профиля" />
+
+            <item
+                android:id="@+id/fragment_About"
+                android:icon="@drawable/ic_about"
+                android:title="@string/about" />
+
+
+        </menu>
+
+
+    </group>
+</menu>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/fragment_Uprazhnenia">
+
+
+    <fragment
+        android:id="@+id/fragment_Uprazhnenia"
+        android:name="com.valgar.gum_fitness_v3.ui.uprazhnenia.Fragment_Uprazhnenia"
+        android:label="fragment__uprazhnenia"
+        tools:layout="@layout/fragment__uprazhnenia" />
+
+    <fragment
+        android:id="@+id/fragment_Profils"
+        android:name="com.valgar.gum_fitness_v3.ui.profils.Fragment_Profils"
+        android:label="fragment__profils"
+        tools:layout="@layout/fragment__profils" />
+
+    <fragment
+        android:id="@+id/fragment_About"
+        android:name="com.valgar.gum_fitness_v3.ui.about.Fragment_About"
+        android:label="fragment__about"
+        tools:layout="@layout/fragment__about" />
+    <fragment
+        android:id="@+id/exit_Profil_Fragment"
+        android:name="com.valgar.gum_fitness_v3.ui.exit_Profil.exit_Profil_Fragment"
+        android:label="fragment_exit_profil"
+        tools:layout="@layout/fragment_exit_profil" />
+</navigation>
